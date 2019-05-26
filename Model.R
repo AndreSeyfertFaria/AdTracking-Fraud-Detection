@@ -32,14 +32,14 @@ addFeatures <- function(dataFrame) {
 }
 
 #Função feita para remover as colunas "attributed_time" e "click_time".
-removeUnnusedFeatures <- function(dataFrame) {
+removeUnusedFeatures <- function(dataFrame) {
   dataFrame$attributed_time = NULL
   dataFrame$click_time = NULL
   return(dataFrame)
 }
 
 df <- addFeatures(df)
-df <- removeUnnusedFeatures(df)
+df <- removeUnusedFeatures(df)
 head(df)
 
 #Objeto utilizado para dividir o dataset em 70% treino e 30% para teste, mantendo a proporção.
