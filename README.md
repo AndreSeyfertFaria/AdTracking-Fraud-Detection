@@ -1,2 +1,2 @@
-# AdTracking-Fraud-Detection-Challenge
-solução proposta para o desafio lançado pelo TalkingData no kaggle, AdTracking Fraud Detection.
+# AdTracking-Fraud-Detection
+solução proposta para o projeto numero 1 da formação Cientista de dados da Data Science Academy.
